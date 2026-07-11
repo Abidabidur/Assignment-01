@@ -3,15 +3,12 @@
     padding:0;
     box-sizing:border-box;
 }
-
 body{
     font-family:'Inter',sans-serif;
 }
-
 a{
     text-decoration:none;
 }
-
 ul{
     list-style:none;
 }
@@ -19,142 +16,82 @@ header{
     background:#fff;
     box-shadow:0 2px 8px rgba(0,0,0,.08);
 }
-
 .navbar{
-
     width:90%;
     max-width:1200px;
-
     margin:auto;
-
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
     padding:20px 0;
 }
-
 .logo img{
     width:60px;
 }
-
 .nav-links{
-
     display:flex;
-
     gap:40px;
 }
-
 .nav-links a{
-
     color:#333;
-
     font-size:17px;
-
     font-weight:500;
-
-    transition:.3s;
+    transition:.3s;  
 }
-
 .nav-links a:hover{
-
-    color:#2563eb;
+    color:#093697;
 }
-
-
 .register-btn{
-
-    background:#2563eb;
-
+    background:#0637a0;
     color:#fff;
-
     padding:12px 24px;
-
     border-radius:8px;
-
     font-weight:600;
-
     transition:.3s;
 }
-
 .register-btn:hover{
-
     background:#1d4ed8;
 }
-
 .hero{
-
     height:100vh;
-
     background:
     linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
     url("./assets/banner.jpg");
 
     background-size:cover;
-
     background-position:center;
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     text-align:center;
-
     color:#fff;
 }
-
 .hero-content{
-
     max-width:850px;
 }
-
 .hero-content h1{
-
     font-size:72px;
-
     font-weight:800;
-
     line-height:1.2;
-
     margin-bottom:25px;
 }
-
 .hero-content em{
-
     font-style:italic;
 }
-
 .hero-content p{
-
     font-size:20px;
-
-    color:#ddd;
-
+    color:hsl(0, 0%, 87%);
     line-height:1.8;
-
     margin-bottom:35px;
 }
-
 .hero-btn{
-
     display:inline-block;
-
-    background:#2563eb;
-
+    background:#0637a0;
     color:white;
-
     padding:16px 36px;
-
     border-radius:8px;
-
     font-weight:700;
 }
-
 .hero-btn:hover{
-
     background:#1d4ed8;
 }
