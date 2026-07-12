@@ -26,14 +26,14 @@ header{
     padding:20px 0;
 }
 .logo img{
-    width:60px;
+    width:120px;
 }
 .nav-links{
     display:flex;
     gap:40px;
 }
 .nav-links a{
-    color:#333;
+    color:#7f7d7d;
     font-size:17px;
     font-weight:500;
     transition:.3s;  
@@ -86,12 +86,12 @@ header{
 }
 .hero-btn{
     display:inline-block;
-    background:#0637a0;
+    background:#496ccc;
     color:white;
     padding:16px 36px;
     border-radius:8px;
     font-weight:700;
 }
 .hero-btn:hover{
-    background:#1d4ed8;
+    background:#496ccc;
 }
