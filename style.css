@@ -96,14 +96,8 @@ header{
     background:#496ccc;
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-body{
-    font-family:'Inter',sans-serif;
-}
+
+
 img{
     display:block;
     width:100%;
@@ -300,7 +294,7 @@ img{
 
 }
 
-/* Responsive */
+
 
 @media(max-width:992px){
 
